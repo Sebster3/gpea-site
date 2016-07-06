@@ -1,0 +1,73 @@
+// Header styles
+.header-container {
+  overflow: hidden;
+  transition-duration: .35s;
+  height: 129px;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;}
+
+#menu-btn {
+  display: inline;
+  width: 45px;
+  height: 42px;
+  float: right;
+  border-radius: 5px;
+  margin-top: -64px;
+  color: #FFFFFF;
+  text-decoration: none;}
+
+.title {
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 3px;
+  font-size: 2em;
+  text-decoration: none;
+  width: 145px;
+  margin: 22px auto 22px 0;
+  display: flex;}
+
+.booktitle {
+  display: inline-block;
+  margin-top: 0;
+  color: #FFFFFF;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.24em;}
+
+
+.subtitle {
+  margin: 22px 0;
+  display: inline-block;
+  font-size: 1em;
+  width: 36%;
+  color: #FFFFFF;}
+
+nav ul {
+  margin: 0;
+  padding: 0;}
+
+nav a:hover,
+nav a:visited {
+  color: #FFFFFF;}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;}
+
+  a:nth-child(n+1) {
+    box-sizing: border-box;
+    flex-grow: 1;}
+
+  a:nth-child(1) {
+    width: 100%;}
+}

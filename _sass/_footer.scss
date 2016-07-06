@@ -1,0 +1,25 @@
+//Footer styles
+.footer-container,
+.main aside {
+  border-top-width: 10px;
+  border-top-style: solid;}
+
+.footer-container footer {
+  color: #FFFFFF;
+  padding: 20px 0;}
+
+.footer-nav {
+  text-align: right;
+
+  a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #FFFFFF;
+
+    &:visited {
+      color: #FFFFFF;}
+
+    &:hover {
+      text-decoration: underline;}
+  }
+}

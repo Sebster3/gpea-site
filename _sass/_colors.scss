@@ -1,0 +1,153 @@
+// COLORS
+// Standard colors
+.header-container {
+  border-bottom-color: $standard-accent;}
+
+.footer-container,
+aside {
+  border-top-color: $standard-accent;}
+
+.header-container,
+.footer-container,
+aside {
+  background-color: $standard-main;}
+
+.title {
+  color: #FFFFFF;}
+
+.title:hover {
+  color: #000000;
+  border-color: #000000;}
+
+.header-nav a {
+  background-color: $standard-accent;}
+
+// Universal top nav colors
+#main-link:hover {
+  background-color: $standard-main-hover;}
+
+#erick-link:hover {
+  background-color: $erick-main-hover;}
+
+#ricardo-link:hover {
+  background-color: $ricardo-main-hover;}
+
+#jose-link:hover {
+  background-color: $jose-main-hover;}
+
+#martha-link:hover {
+  background-color: $martha-main-hover;}
+
+#ivy-link:hover {
+  background-color: $ivy-main-hover;}
+
+#milan-link:hover {
+  background-color: $milan-main-hover;}
+
+#jessica-link:hover {
+  background-color: $jessica-main-hover;}
+
+// Colors specific to erick page
+.erick {
+  .header-container {
+    border-bottom-color: $erick-accent;}
+
+  .footer-container,
+  aside {
+    border-top-color: $erick-accent;}
+
+  .header-container,
+  .footer-container,
+  aside {
+    background-color: $erick-main;}
+
+  .header-nav a {
+    background-color: $erick-accent;}
+
+  details {
+    background-color: $erick-amendment-bg;}
+}
+
+// Colors specific to jose page
+.jose {
+  .header-container {
+    border-bottom-color: $jose-accent;}
+
+  .footer-container,
+  aside {
+    border-top-color: $jose-accent;}
+
+  .header-container,
+  .footer-container,
+  aside {
+    background-color: $jose-main;}
+
+  .header-nav a {
+    background-color: $jose-accent;}
+
+  details {
+    background-color: $jose-amendment-bg;}
+}
+
+// Colors specific to ricardo page
+.ricardo {
+  .header-container {
+    border-bottom-color: $ricardo-accent;}
+
+  .footer-container,
+  aside {
+    border-top-color: $ricardo-accent;}
+
+  .header-container,
+  .footer-container,
+  aside {
+    background-color: $ricardo-main;}
+
+  .header-nav a {
+    background-color: $ricardo-accent;}
+
+  details {
+    background-color: $ricardo-amendment-bg;}
+}
+
+// Colors specific to milan page
+.milan {
+  .header-container {
+    border-bottom-color: $milan-accent;}
+
+  .footer-container,
+  aside {
+    border-top-color: $milan-accent;}
+
+  .header-container,
+  .footer-container,
+  aside {
+    background-color: $milan-main;}
+
+  .header-nav a {
+    background-color: $milan-accent;}
+
+  details {
+    background-color: $milan-amendment-bg;}
+}
+
+// Colors specific to jessica page
+.jessica {
+  .header-container {
+    border-bottom-color: $jessica-accent;}
+
+  .footer-container,
+  aside {
+    border-top-color: $jessica-accent;}
+
+  .header-container,
+  .footer-container,
+  aside {
+    background-color: $jessica-main;}
+
+  .header-nav a {
+    background-color: $jessica-accent;}
+
+  details {
+    background-color: $jessica-amendment-bg;}
+}

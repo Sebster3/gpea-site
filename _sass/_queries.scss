@@ -1,0 +1,58 @@
+// Media Queries
+@media only screen and (min-width: 480px) {
+
+  #menu-btn {
+    display: none;}
+
+  .header-container {
+    height: 100%;}
+
+  .booktitle {
+    float: left;
+    width: 80%;
+    margin: 33px 0 0 5px;}
+
+  .oldie nav a {
+    margin: 0 .7%;}
+}
+
+@media screen and (max-width: 798px) {
+
+  .footer-nav a {
+    font-size: 15px;}
+}
+
+@media only screen and (min-width: 799px) {
+
+  .header-container,
+  aside,.amendment {
+    box-shadow: 0 5px 10px #AAAAAA;}
+
+  .title {
+    float: left;
+    width: 145px;}
+
+  .subtitle {
+    float: left;
+    margin: 40px 0 0 4px;
+    width: 126px;}
+
+  .header-nav a:nth-child(n+3) {
+    margin-left: 10px;}
+
+  article {
+    float: left;
+    width: 57%;}
+
+  aside {
+    float: right;
+    width: 28%;}
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .wrapper {
+    width: 100%;
+    max-width: 1150px; // 1140px - 10% for margins
+    margin: 0 auto;}
+}

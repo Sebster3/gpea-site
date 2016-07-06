@@ -1,0 +1,48 @@
+// Body styles
+.amendment {
+  padding: 10px;
+  background-color: rgba(216, 216, 216, .7);
+  border-radius: 3px;}
+
+section {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 0;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  article {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    flex-grow: 1;
+    width: 360px;
+    margin: 10px;
+    padding: 15px;}
+}
+
+article h2 {
+  text-align: center;
+  font-size: 1.9em;
+  font-weight: 300;
+  margin: 20px 0;}
+
+details {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+  box-sizing: border-box;
+  background: $standard-amendment-bg;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+
+  summary {
+    font-weight: 600;
+
+    &:focus, &:active {
+      outline: none;}
+  }
+}

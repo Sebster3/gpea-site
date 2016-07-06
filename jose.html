@@ -1,0 +1,20 @@
+---
+layout: default
+bookTitle: Jose
+bookClassName: jose
+---
+<div>
+    <aside>
+        <h3>Newest amendment to this book</h3>
+        <p>The newest addition is to the party section of this book.</p>
+        <p>to View this amendment, <span onclick="amendScroll()">Click Here</span>.</p>
+    </aside>
+    <section>
+        {% for post in site.categories.Jose %}
+        <article>
+            <h2>{{post.ruleTitle}}</h2>
+            {{post.content}}
+        </article>
+        {% endfor %}
+    </section>
+</div>

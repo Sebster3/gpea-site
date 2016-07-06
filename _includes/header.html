@@ -1,0 +1,8 @@
+<div class="header-container" id="header-nav">
+    <header class="wrapper clearfix">
+        <a href="index.html" class="title">The Bible</a>
+        <img src="Images/Menu-btn.png" onclick="navHeightExpand()" id="menu-btn">
+        <h2 class="booktitle">{% if page.bookTitle%} The book of {{page.bookTitle}}{% else %}In the Beginning{% endif %} </h2>
+        {% include nav.html navClass='header-nav' %}
+    </header>
+</div>

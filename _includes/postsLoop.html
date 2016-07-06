@@ -1,0 +1,8 @@
+<section>
+    {% for post in site.categories.{{page.include.name}} %}
+    <article>
+        <h2>{{post.ruleTitle}}</h2>
+        {{post.content}}
+    </article>
+    {% endfor %}
+</section>
